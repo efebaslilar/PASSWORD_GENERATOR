@@ -17,18 +17,20 @@ namespace PASSWORD_GENERATOR
             InitializeComponent();
         }
         
-        public string[] Buyukharf = {"A","B","C","D","E","F","G","H","I","J","K","L","M","N","O","P","R","S","T","U","V","Y","Z"};
+        public string[] Buyukharf = new string[23]{"A","B","C","D","E","F","G","H","I","J","K","L","M","N","O","P","R","S","T","U","V","Y","Z"};
         
-        public string[] kucukharf ={"a","b","c","d","e","f","g","h","i","j","k","l","m","n","o","p","r","s","t","u","v","y","z"};
+        public string[] kucukharf =new string[23]{"a","b","c","d","e","f","g","h","i","j","k","l","m","n","o","p","r","s","t","u","v","y","z"};
 
-        public string[] sayılar = {"0","1","2","3","4","5","6","7","8","9"};
+        public string[] sayılar = new string[10]{"0","1","2","3","4","5","6","7","8","9"};
 
-        public string[] sekiller = {".",",","!","-","_","*"};
+        public string[] sekiller = new string[6] {".",",","!","-","_","*"};
 
         public List<string> sonuc = new List<string>();
         Random rnd = new Random();
+
         private void button1_Click(object sender, EventArgs e)
         {
+            sonuc.Clear();
             string password = "";
             int randomsayi;
             int hane = Convert.ToInt32(hScrollBar1.Value);
@@ -59,6 +61,5 @@ namespace PASSWORD_GENERATOR
             label2.Text = "Parola Uzunluğu : " + hScrollBar1.Value.ToString();
         }
 
-        
     }
 }

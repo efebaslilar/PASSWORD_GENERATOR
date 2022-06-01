@@ -122,7 +122,7 @@ namespace PASSWORD_GENERATOR
             this.AutoScaleDimensions = new System.Drawing.SizeF(12F, 24F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.SystemColors.ActiveCaption;
-            this.ClientSize = new System.Drawing.Size(390, 295);
+            this.ClientSize = new System.Drawing.Size(475, 296);
             this.Controls.Add(this.hScrollBar1);
             this.Controls.Add(this.label3);
             this.Controls.Add(this.chcboxsayi);
@@ -134,7 +134,7 @@ namespace PASSWORD_GENERATOR
             this.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
             this.Margin = new System.Windows.Forms.Padding(6);
             this.Name = "Form1";
-            this.Text = "Form1";
+            this.Text = "Form1";          
             this.ResumeLayout(false);
             this.PerformLayout();
 
